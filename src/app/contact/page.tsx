@@ -16,7 +16,7 @@ export default function Home() {
           <CodeBlock
 customStyle={{
   height:'100%',
-}}         text={`//work in progress`}
+}}         text={`//contact page work in progress`}
 
             language={'jsx'}
             theme={vs2015}
