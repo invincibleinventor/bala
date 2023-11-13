@@ -23,25 +23,25 @@ export default function Home() {
       return (
         
         
-          <div className='flex flex-col content-center items-center  h-auto'>
-            <div className="my-auto md:mb-0 mb-4 flex w-full flex-col-reverse md:flex-row">
-<div className="flex flex-col  content-center md:px-14 px-8 py-6 md:py-10 md:w-3/5">
+          <div className='flex h-auto flex-col content-center  items-center'>
+            <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row">
+<div className="flex flex-col  content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10">
          <h1 className="font-neutral text-3xl text-neutral-300">
-          Hi! I'm
+          Hi! I&apos;m
          </h1>
-         <h1 className='text-6xl md:text-8xl font-black text-white'>
+         <h1 className='text-6xl font-black text-white md:text-8xl'>
           Bala
          </h1>
-         <h1 className='my-4 lg:my-2 text-xs md:text-sm font-normal leading-relaxed text-neutral-400'>I'm a student from India passionate about Tech. I enjoy making scalable, effective web frontends and user interfaces for modern web applications</h1>
+         <h1 className='my-4 text-xs font-normal leading-relaxed text-neutral-400 md:text-sm lg:my-2'>I&apos;m a student from India passionate about Tech. I enjoy making scalable, effective web frontends and user interfaces for modern web applications</h1>
         <Link href={"/contact"} className="my-2 w-max border border-neutral-700 bg-black bg-opacity-10 px-5 py-3 text-sm font-medium text-white">Get In Touch</Link>
-        <h1 className="font-neutral mt-10  md:mt-4  text-lg md:text-xl font-bold text-neutral-300">
+        <h1 className="font-neutral mt-10  text-lg  font-bold text-neutral-300 md:mt-4 md:text-xl">
           About This Site
          </h1>
         <h1 className='my-2 text-xs font-normal leading-relaxed  text-neutral-500'>This site is highly inspired and intentionally designed to mimic the popular IDE - VSCode by Microsoft. This is done intentionally to showcase the extensive capabilities of modern web technologies to mimic complex User Interfaces.<br></br><br></br> All VS-Code branded Icons and Refernces are solely owned by Microsoft Corporation.</h1>
 
          </div>
-         <div className=' flex flex-row px-6 pt-10 pb-5 md:p-0 md:mt-14 md:w-2/5'>
-         <img className="md:mx-auto h-44 w-44 rounded-md" src="/images/bala.png"></img>
+         <div className=' flex flex-row px-6 pb-5 pt-10 md:mt-14 md:w-2/5 md:p-0'>
+         <img className="h-44 w-44 rounded-md md:mx-auto" src="/images/bala.png"></img>
          </div>
          </div>
          
