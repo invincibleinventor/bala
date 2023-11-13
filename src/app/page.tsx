@@ -33,9 +33,9 @@ export default function Home() {
          <h1 className='text-6xl font-black text-white md:text-8xl'>
           Bala
          </h1>
-         <h1 className='my-4 text-xs font-normal leading-relaxed text-neutral-400 md:text-sm lg:my-2'>I&apos;m a student from India passionate about Tech. I enjoy making scalable, effective web frontends and user interfaces for modern web applications</h1>
+         <h1 className='my-4 text-xs font-normal leading-relaxed text-neutral-400 md:text-sm lg:my-6'>I&apos;m a student from India passionate about Tech. I enjoy making scalable, effective web frontends and user interfaces for modern web applications</h1>
         <Link href={"/contact"} className="my-2 w-max border border-neutral-700 bg-black bg-opacity-10 px-5 py-3 text-sm font-medium text-white">Get In Touch</Link>
-        <h1 className="font-neutral mt-10  text-lg  font-bold text-neutral-300 md:mt-4 md:text-xl">
+        <h1 className="font-neutral mt-10  text-lg  font-bold text-neutral-300 md:mt-8 md:text-xl">
           About This Site
          </h1>
         <h1 className='my-2 text-xs font-normal leading-relaxed  text-neutral-500'>This site is highly inspired and intentionally designed to mimic the popular IDE - VSCode by Microsoft. This is done intentionally to showcase the extensive capabilities of modern web technologies to mimic complex User Interfaces.<br></br><br></br> All VS-Code branded Icons and Refernces are solely owned by Microsoft Corporation.</h1>
