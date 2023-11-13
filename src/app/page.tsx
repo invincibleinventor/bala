@@ -23,7 +23,7 @@ export default function Home() {
       return (
         
         
-          <div className='flex h-auto flex-col content-center  items-center'>
+          <div className='overflow-h-scroll flex h-auto flex-col content-center  items-center'>
             <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row">
 <div className="flex flex-col  content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10">
          <h1 className="font-neutral text-3xl text-neutral-300">
@@ -41,7 +41,7 @@ export default function Home() {
 
          </div>
          <div className=' flex flex-row px-6 pb-5 pt-10 md:mt-14 md:w-2/5 md:p-0'>
-         <img className="h-44 w-44 rounded-md md:mx-auto" src="/images/bala.png"></img>
+         <img className="h-max-44 w-max-44 rounded-md md:mx-auto" src="/images/bala.png"></img>
          </div>
          </div>
          
