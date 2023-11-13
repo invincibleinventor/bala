@@ -42,7 +42,7 @@ export default function Home() {
 
          </div>
          <div className=' flex flex-row px-6 pb-5 pt-10 md:mt-14 md:w-2/5 md:p-0'>
-         <Image className="max-h-[176px] max-w-[176px] rounded-md md:mx-auto" src="/images/bala.png"></Image>
+         <img className="max-h-[176px] max-w-[176px] rounded-md md:mx-auto" src="/images/bala.png"></img>
          </div>
          </div>
          
