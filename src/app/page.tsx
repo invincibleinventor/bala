@@ -1,5 +1,6 @@
 'use client'
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { CodeBlock, atomOneDark, vs2015 } from 'react-code-blocks';
 
@@ -41,7 +42,7 @@ export default function Home() {
 
          </div>
          <div className=' flex flex-row px-6 pb-5 pt-10 md:mt-14 md:w-2/5 md:p-0'>
-         <img className="h-max-44 w-max-44 rounded-md md:mx-auto" src="/images/bala.png"></img>
+         <Image className="max-h-[176px] max-w-[176px] rounded-md md:mx-auto" src="/images/bala.png"></Image>
          </div>
          </div>
          
