@@ -15,9 +15,59 @@ export default function Home() {
           <CodeBlock
 customStyle={{
   height:'100%',
-}}text={`//all languages i know page is work in progress`}
+}} text={`{
+  "web": {
+    "html": "fluent",
+    "css": {
+      "tailwind": "fluent",
+      "vanilla": "fluent"
+    },
+    "js": {
+      "react": {
+        "next-js": "fluent",
+        "qwik-js": "in-progress",
+        "svelte": "in-progress"
+      },
+      "node": {
+        "expressjs": "fluent"
+      }
+    }
+  },
+  "databases": {
+    "firebase": "fluent",
+    "supabase": "fluent",
+    "mongo": "decent"
+  },
+  "operating-systems": {
+    "linux": {
+      "arch-linux": "fluent (i use arch btw)",
+      "gentoo": "decent",
+      "opensuse": "fluent",
+      "ubuntu": "fluent",
+      "fedora": "fluent"
+    }
+  },
+  "general-programming": {
+    "c": "fluent",
+    "python": "fluent",
+    "cpp": "fluent",
+    "java": "decent",
+    "ruby": "decent",
+    "lua": "decent"
+  },
+  "others": {
+    "git": "fluent",
+    "vscode": "fluent",
+    "figma": "fluent",
+    "adobe-xd": "fluent",
+    "sysadministration": "fluent",
+    "english": "fluent",
+    "tamil": "fluent",
+    "being_a_jerk": "very fluent"
+  }
+}`}
 
-            language={'jsx'}
+            language={'json'}
             theme={vs2015}
             {...{ showLineNumbers, wrapLines, codeBlock }}
           />

@@ -21,7 +21,7 @@ const paths = ['/search','/git','/projects','/contact']
             <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
           <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
 
-            <span className=" text-[14px] text-neutral-300">languages.o</span>
+            <span className=" text-[14px] text-neutral-300">languages.js</span>
             </div>
             </Link>
 

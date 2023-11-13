@@ -75,7 +75,7 @@ const paths = ['/git','/search','/projects','/contact']
             <div className="ml-3 mr-auto flex flex-row content-center items-center space-x-1">
           <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
 
-            <span className=" text-[15px] text-neutral-300">languages.o</span>
+            <span className=" text-[15px] text-neutral-300">languages.js</span>
             </div>
             </Link>
             <Link href="/main/education" className={`flex w-48 shrink-0 flex-row content-center items-center space-x-1 bg-neutral-900  py-1  text-sm text-neutral-300 ${path=='/main/education'?'neut-800  text-neutral-200':''}`}>
