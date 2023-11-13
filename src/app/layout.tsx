@@ -37,6 +37,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
 </div>
         </div>
+
       </body>
     </html>
   );

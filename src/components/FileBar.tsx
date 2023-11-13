@@ -14,14 +14,14 @@ const paths = ['/search','/git','/projects','/contact']
             <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
           <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
 
-            <span className=" text-[15px] text-neutral-300">aboutMe.o</span>
+            <span className=" text-[14px] text-neutral-300">aboutMe.o</span>
             </div>
             </Link>
             <Link href="/main/languages" className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900 text-sm text-neutral-300 ${path=='/main/languages'?'neut-800 border-t-2 border-t-[#3b82f6]    text-neutral-200':''}`}>
             <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
           <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
 
-            <span className=" text-[15px] text-neutral-300">languages.o</span>
+            <span className=" text-[14px] text-neutral-300">languages.o</span>
             </div>
             </Link>
 
@@ -29,14 +29,14 @@ const paths = ['/search','/git','/projects','/contact']
             <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
           <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
 
-            <span className=" text-[15px] text-neutral-300">education.o</span>
+            <span className=" text-[14px] text-neutral-300">education.o</span>
             </div>
             </Link>
             <Link href="/main/testimonials" className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${path=='/main/testimonials'?'neut-800 border-t-2 border-t-[#3b82f6]    text-neutral-200':''}`}>
             <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
           <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
 
-            <span className=" text-[15px] text-neutral-300">testimonials.o</span>
+            <span className=" text-[14px] text-neutral-300">testimonials.o</span>
             </div>
             </Link>
        
