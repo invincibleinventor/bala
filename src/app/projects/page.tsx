@@ -9,11 +9,7 @@ export default function Home() {
       const showLineNumbers = true;
       const wrapLines = true;
       const codeBlock = true;
-      return (
-        <div
-        className='h-full font-mono'
-        >
-          <CodeBlock
+      /* <CodeBlock
 customStyle={{
   height:'100%',
 }}           text={`{
@@ -68,6 +64,13 @@ customStyle={{
             theme={vs2015}
             {...{ showLineNumbers, wrapLines, codeBlock }}
           />
+          */
+      return (
+        <div
+        className='py-4  px-6 grid-flow-col grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 h-full font-mono'
+        >
+
+         
         </div>
       );
       
