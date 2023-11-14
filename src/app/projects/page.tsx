@@ -1,5 +1,6 @@
 'use client'
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { CodeBlock, atomOneDark, vs2015 } from 'react-code-blocks';
 
 
@@ -66,12 +67,80 @@ customStyle={{
           />
           */
       return (
-        <div
-        className='py-4  px-6 grid-flow-col grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 h-full font-mono'
-        >
-
-         
+        <div className="container mx-auto">
+<div className="grid grid-cols-1 gap-6 p-6  md:grid-cols-2 lg:grid-cols-4">
+<div
+            className="flex flex-col justify-center bg-black bg-opacity-20"
+          >
+            <img src="https://picsum.photos/200/300" className='h-24 w-full'></img>
+            <h1 className="font-jost mt-4 px-4 text-lg font-bold text-neutral-300">App Name</h1>
+          <h1 className='mt-1 px-4 text-xs text-neutral-400'>Hello  l l lookoi lkso </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
+          <Link href="/git" className="mt-4 flex content-center items-center bg-black bg-opacity-20 py-2">
+          <div className='mx-auto flex flex-row content-center items-center space-x-2'>
+          <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
+          <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
+          </div>
+        </Link>
+          </div>
+          <div
+            className="flex flex-col justify-center bg-black bg-opacity-20"
+          >
+            <img src="https://picsum.photos/200/300" className='h-24 w-full'></img>
+            <h1 className="font-jost mt-4 px-4 text-lg font-bold text-neutral-300">App Name</h1>
+          <h1 className='mt-1 px-4 text-xs text-neutral-400'>Hello  l l lookoi lkso </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
+          <Link href="/git" className="mt-4 flex content-center items-center bg-black bg-opacity-20 py-2">
+          <div className='mx-auto flex flex-row content-center items-center space-x-2'>
+          <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
+          <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
+          </div>
+        </Link>
+          </div>
+          <div
+            className="flex flex-col justify-center bg-black bg-opacity-20"
+          >
+            <img src="https://picsum.photos/200/300" className='h-24 w-full'></img>
+            <h1 className="font-jost mt-4 px-4 text-lg font-bold text-neutral-300">App Name</h1>
+          <h1 className='mt-1 px-4 text-xs text-neutral-400'>Hello  l l lookoi lkso </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
+          <Link href="/git" className="mt-4 flex content-center items-center bg-black bg-opacity-20 py-2">
+          <div className='mx-auto flex flex-row content-center items-center space-x-2'>
+          <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
+          <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
+          </div>
+        </Link>
+          </div>
+          <div
+            className="flex flex-col justify-center bg-black bg-opacity-20"
+          >
+            <img src="https://picsum.photos/200/300" className='h-24 w-full'></img>
+            <h1 className="font-jost mt-4 px-4 text-lg font-bold text-neutral-300">App Name</h1>
+          <h1 className='mt-1 px-4 text-xs text-neutral-400'>Hello  l l lookoi lkso </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
+          <Link href="/git" className="mt-4 flex content-center items-center bg-black bg-opacity-20 py-2">
+          <div className='mx-auto flex flex-row content-center items-center space-x-2'>
+          <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
+          <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
+          </div>
+        </Link>
+          </div>
+          <div
+            className="flex flex-col justify-center bg-black bg-opacity-20"
+          >
+            <img src="https://picsum.photos/200/300" className='h-24 w-full'></img>
+            <h1 className="font-jost mt-4 px-4 text-lg font-bold text-neutral-300">App Name</h1>
+          <h1 className='mt-1 px-4 text-xs text-neutral-400'>Hello  l l lookoi lkso </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
+          <Link href="/git" className="mt-4 flex content-center items-center bg-black bg-opacity-20 py-2">
+          <div className='mx-auto flex flex-row content-center items-center space-x-2'>
+          <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
+          <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
+          </div>
+        </Link>
+          </div>
         </div>
+      </div>
       );
       
   
