@@ -68,8 +68,8 @@ customStyle={{
           />
           */
       return (
-        <div className="container mx-auto max-h-full overflow-y-scroll">
-<div className="grid grid-cols-1 gap-6  p-6  md:grid-cols-2 lg:grid-cols-4">
+        <div className="container mx-auto h-auto max-h-full overflow-y-scroll">
+<div className="grid grid-cols-1  gap-6  p-6  md:grid-cols-2 lg:grid-cols-4">
 <div
             className="relative flex h-[500px] flex-col bg-black bg-opacity-20"
           >

@@ -31,7 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                       <div className="no-scrollbar overflow-x-scroll">
                       <Filebar></Filebar>
                       </div>
-                      <div className=' h-[calc(100vh-88px)] w-auto overflow-hidden pb-12 md:pb-0'>
+                      <div className=' h-[calc(100vh-88px)] w-auto overflow-hidden md:pb-0'>
           {children}
           </div>
           </div>
