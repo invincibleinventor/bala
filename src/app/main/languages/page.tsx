@@ -10,7 +10,7 @@ export default function Home() {
       const codeBlock = true;
       return (
         <div
-        className='h-full font-mono'
+        className='max-h-[calc(100vh-140px)] font-mono'
         >
           <CodeBlock
 customStyle={{
