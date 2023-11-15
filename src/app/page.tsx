@@ -38,7 +38,7 @@ export default function Home() {
         <h1 className="font-neutral mt-10  text-lg  font-bold text-neutral-300 md:mt-8 md:text-xl">
           About This Site
          </h1>
-        <h1 className='my-2 text-xs font-normal leading-relaxed  text-neutral-500'>This site is highly inspired and intentionally designed to mimic the popular IDE - VSCode by Microsoft. This is done intentionally to showcase the extensive capabilities of modern web technologies to mimic complex User Interfaces.<br></br><br></br> All VS-Code branded Icons and Refernces are solely owned by Microsoft Corporation.</h1>
+        <h1 className='my-2 text-xs font-normal leading-relaxed  text-neutral-400'>This site is highly inspired and intentionally designed to mimic the popular IDE - VSCode by Microsoft. This is done intentionally to showcase the extensive capabilities of modern web technologies to mimic complex User Interfaces.<br></br><br></br> All VS-Code branded Icons and Refernces are solely owned by Microsoft Corporation.</h1>
 
          </div>
          <div className=' flex flex-row px-6 pb-5 pt-10 md:mt-14 md:w-2/5 md:p-0'>
