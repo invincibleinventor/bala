@@ -22,7 +22,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
       </head>
-      <body className="h-screen w-screen overflow-hidden bg-neutral-800 ">
+      <body className="font-lato h-screen w-screen overflow-hidden bg-neutral-800 ">
         <div className="flex h-screen w-screen flex-col overflow-hidden" >
         <Titlebar />
         <div className="mt-12 flex h-full w-screen grow flex-row overflow-hidden ">
@@ -31,7 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                       <div className="no-scrollbar overflow-x-scroll">
                       <Filebar></Filebar>
                       </div>
-                      <div className=' h-[calc(100vh-88px)] w-auto overflow-x-hidden pb-12 md:pb-0'>
+                      <div className=' h-[calc(100vh-88px)] w-auto overflow-hidden pb-12 md:pb-0'>
           {children}
           </div>
           </div>
