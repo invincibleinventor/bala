@@ -1,5 +1,7 @@
 // @ts-nocheck
 'use client'
+import { motion } from "framer-motion"
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Icon } from '@iconify/react';
@@ -19,6 +21,15 @@ else{
   a=''
 }
 const paths = ['/git','/search','/projects','/contact']
+const variants = {
+  open: {
+    transition: { staggerChildren: 0.07, delayChildren: 0.2 }
+  },
+  closed: {
+    transition: { staggerChildren: 0.05, staggerDirection: -1 }
+  }
+};
+
   return (
     <div className="flex flex-row">
     <header className="flex h-auto flex-col content-center items-center border-r border-r-neutral-700 bg-neutral-800">
@@ -55,7 +66,10 @@ const paths = ['/git','/search','/projects','/contact']
       </div>
 
     </header>
-    <header className={`flex h-[calc(100vh-48px)] w-48 flex-col content-center items-center border-r border-r-[#121212] bg-neutral-900 p-0 ${file?'':'hidden'}`}>
+    <motion.aside variants={variants}
+      >
+
+    <header className={`flex h-[calc(100vh-48px)] w-48 flex-col content-center items-center border-r border-r-[#121212] bg-neutral-900 p-0 transition-all duration-200 ease-linear  ${file?'':'hidden'}`}>
     
           <div className="flex flex-col space-y-1">
           <div className="flex w-48 cursor-pointer flex-row content-center items-center space-x-0 p-1 pt-2" onClick={()=>setExpanded(!expanded)}>
@@ -95,6 +109,8 @@ const paths = ['/git','/search','/projects','/contact']
           </div>
           </div>
         </header>
+        </motion.aside>
+
         </div>
 
   );
