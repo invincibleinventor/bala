@@ -25,7 +25,7 @@ export default function Home() {
         
         
           <div className='flex h-auto flex-col content-center items-center overflow-y-scroll pb-10  md:pb-0'>
-            <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row">
+            <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row-reverse">
 <div className="flex flex-col  content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10">
          <h1 className="font-neutral text-3xl text-neutral-300">
           Hi! I&apos;m
