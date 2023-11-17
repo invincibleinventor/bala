@@ -34,8 +34,10 @@
     "next": "^13.5.3",
     "nodemailer": "^6.9.7",
     "react": "^18.2.0",
+    "react-animated-slider": "^2.0.0",
     "react-code-blocks": "^0.1.4",
     "react-dom": "^18.2.0",
+    "react-responsive-system": "^0.10.2",
     "zod": "^3.22.2"
   },
   "devDependencies": {

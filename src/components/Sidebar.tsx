@@ -20,6 +20,7 @@ if (!path.includes('/main')){
 else{
   a=''
 }
+
 const paths = ['/git','/search','/projects','/contact']
 const variants = {
   open: {

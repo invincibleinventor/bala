@@ -2,6 +2,10 @@
 import type { Metadata } from 'next';
 import { CodeBlock, atomOneDark, vs2015 } from 'react-code-blocks';
 
+import React from 'react';
+import Slider from 'react-animated-slider';
+
+
 
 
 export default function Home() {
@@ -11,18 +15,9 @@ export default function Home() {
       const codeBlock = true;
       return (
         <div
-        className='h-full font-mono'
-        >
-          <CodeBlock
-customStyle={{
-  height:'100%',
-}}           text={`//my testimonials page is work in progress`}
-
-            language={'jsx'}
-            theme={vs2015}
-            {...{ showLineNumbers, wrapLines, codeBlock }}
-          />
-        </div>
+        className='h-full w-full'
+      
+      ></div>  
       );
       
   

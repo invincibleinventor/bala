@@ -1,7 +1,7 @@
 import '@/styles/global.css';
+import { ScreenClassProvider } from './responsiveSystem';
 
 import type { Metadata } from 'next';
-
 import type { RootLayoutProps } from '@/types/index';
 
 import { fontSans } from '@/lib/fonts';
@@ -17,11 +17,13 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
+
     <html lang="en" className={`${fontSans.variable}`}>
       <head>
       <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
       </head>
+
       <body className="font-lato h-screen w-screen overflow-hidden bg-neutral-800 ">
         <div className="flex h-screen w-screen flex-col overflow-hidden" >
         <Titlebar />

@@ -24,25 +24,25 @@ export default function Home() {
       return (
         
         
-          <div className='flex h-auto max-h-[calc(100vh-140px)] flex-col content-center items-center overflow-y-scroll   md:pb-0'>
+          <div className='no-scrollbar flex h-auto max-h-[calc(100vh-144px)] flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden'>
             <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row-reverse">
-<div className="flex flex-col  content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10">
+<div className="my-auto flex flex-col content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10 ">
          <h1 className="font-neutral text-3xl text-neutral-300">
           Hi! I&apos;m
          </h1>
          <h1 className='text-6xl font-black text-white md:text-8xl'>
           Bala
          </h1>
-         <h1 className='my-4 text-xs font-normal leading-relaxed text-neutral-400 md:text-sm lg:my-6'>I&apos;m a student from India passionate about Tech. I enjoy making scalable, effective web frontends and user interfaces for modern web applications</h1>
+         <h1 className='my-4 text-xs font-normal leading-relaxed text-neutral-400 md:text-sm lg:my-6 lg:text-sm'>I&apos;m a student from India passionate about Tech. I enjoy making scalable, effective web frontends and user interfaces for modern web applications</h1>
         <Link href={"/contact"} className="my-2 w-max border border-neutral-700 bg-black bg-opacity-10 px-5 py-3 text-sm font-medium text-white">Get In Touch</Link>
         <h1 className="font-neutral mt-10  text-lg  font-bold text-neutral-300 md:mt-8 md:text-xl">
           About This Site
          </h1>
-        <h1 className='my-2 text-xs font-normal leading-relaxed  text-neutral-400'>This site is highly inspired and intentionally designed to mimic the popular IDE - VSCode by Microsoft. This is done intentionally to showcase the extensive capabilities of modern web technologies to mimic complex User Interfaces.<br></br><br></br> All VS-Code branded Icons and Refernces are solely owned by Microsoft Corporation.</h1>
+        <h1 className='my-2 mt-4 text-xs font-normal leading-relaxed text-neutral-400  lg:text-sm'>This site is highly inspired and intentionally designed to mimic the popular IDE - VSCode by Microsoft. This is done intentionally to showcase the extensive capabilities of modern web technologies to mimic complex User Interfaces.<br></br><br></br> All VS-Code branded Icons and References are solely owned by Microsoft Corporation.<br></br><br></br>Please contact me for any trademark complaints. I shall be quick to respond.</h1>
 
          </div>
-         <div className=' flex flex-row px-6 pb-5 pt-10 md:mt-14 md:w-2/5 md:p-0'>
-         <img className="max-h-[176px] max-w-[176px] rounded-md md:mx-auto" src="/images/bala.png"></img>
+         <div className=' flex flex-row px-6 pb-5 pt-10 md:mt-10 md:w-2/5 md:p-0 md:pb-10 md:pl-10'>
+         <img className=" rounded-md md:mx-auto" src="/images/bala.png"></img>
          </div>
          </div>
          
