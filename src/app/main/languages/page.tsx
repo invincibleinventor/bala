@@ -10,7 +10,7 @@ export default function Home() {
       const codeBlock = true;
       return (
         <div
-        className='no-scrollbar max-h-[calc(100vh-140px)] overflow-y-scroll font-mono'
+        className='no-scrollbar max-h-[calc(100vh-140px)] overflow-y-scroll font-mono lg:max-h-[calc(100vh-88px)]'
         >
           <CodeBlock
 customStyle={{
