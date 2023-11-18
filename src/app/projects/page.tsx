@@ -71,19 +71,23 @@ customStyle={{
         <div className="container no-scrollbar mx-auto h-auto max-h-[calc(100vh-140px)] overflow-y-scroll">
 <div className="grid grid-cols-1  gap-6  p-6  md:grid-cols-2 lg:grid-cols-4">
 <div
-            className="relative flex h-[500px] flex-col bg-black bg-opacity-20"
+            className=" border-l-blue-600 relative flex h-[500px] flex-col bg-black bg-opacity-20"
           >
             <img src="/images/1.png" className='h-44 w-full'></img>
             <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">Bindows 11</h1>
           <h1 className='mt-1 px-4 text-xs leading-relaxed text-neutral-400'>It aims at emulating the overall UI of Windows11 as an attempt to showcase the capabilities of modern web technologies</h1>
           <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
           <h1 className='mt-2 px-4 text-xs text-neutral-400'>Typescript, VanillaCSS</h1>
+          
           <Link href="https://w11.vercel.app" className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2">
+          
           <div className='mx-auto flex flex-row content-center items-center space-x-2'>
           <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
           <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
           </div>
+        
         </Link>
+        
           </div>
           <div
             className="relative flex h-[500px] flex-col bg-black bg-opacity-20"

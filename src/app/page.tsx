@@ -1,13 +1,19 @@
 'use client'
-import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
-import { CodeBlock, atomOneDark, vs2015 } from 'react-code-blocks';
-
-
-
+import { useState } from 'react';
+import { AvatarCreator, AvatarCreatorConfig, AvatarExportedEvent } from '@readyplayerme/react-avatar-creator';
+import {Experience} from '@/components/Experience'
+import { Canvas } from '@react-three/fiber';
+const config: AvatarCreatorConfig = {
+  clearCache: false,
+  bodyType: 'fullbody',
+  quickStart: false,
+  language: 'en',
+};
+const style = { width: '100%', height: '100%', border: 'none' };
 export default function Home() {
- /*
+
+  /*
  <div className='flex h-max flex-col bg-neutral-900'>
           <div className='flex w-full flex-row items-center justify-between border-y border-y-neutral-800 bg-black bg-opacity-30 px-5 py-4 font-sans'>
             <h1 className='text-xs font-medium text-neutral-300'>OUTPUT</h1>
@@ -18,9 +24,8 @@ export default function Home() {
           
          </div>
          */
-      const showLineNumbers = true;
-      const wrapLines = true;
-      const codeBlock = true;
+/*         <img className=" rounded-md md:mx-auto" src="/images/bala.png"></img>
+*/    
       return (
         
         
@@ -42,8 +47,11 @@ export default function Home() {
 
          </div>
          <div className=' flex flex-row px-6 pb-5 pt-10 md:mt-10 md:w-2/5 md:p-0 md:pb-10 md:pl-10'>
-         <img className=" rounded-md md:mx-auto" src="/images/bala.png"></img>
-         </div>
+         <Canvas shadows camera={{ position: [0, 2, 5], fov: 30 }}>
+      <color attach="background" args={["#ececec"]} />
+      <Experience />
+    </Canvas>
+                  </div>
          </div>
          
       

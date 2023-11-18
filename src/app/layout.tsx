@@ -1,9 +1,7 @@
 import '@/styles/global.css';
-import { ScreenClassProvider } from './responsiveSystem';
-
 import type { Metadata } from 'next';
 import type { RootLayoutProps } from '@/types/index';
-
+import { AppProps } from 'next/app';
 import { fontSans } from '@/lib/fonts';
 import meta from '@/lib/meta';
 import Titlebar from '@/components/Titlebar';
@@ -15,7 +13,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return metadata;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: RootLayoutProps, props: AppProps) {
   return (
 
     <html lang="en" className={`${fontSans.variable}`}>
@@ -24,7 +22,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
       </head>
 
-      <body className="font-lato h-screen w-screen overflow-hidden bg-neutral-800 ">
+      <body className="font-lato h-screen w-screen overflow-hidden neut-800 ">
         <div className="flex h-screen w-screen flex-col overflow-hidden" >
         <Titlebar />
         <div className="mt-12 flex h-full w-screen grow flex-row overflow-hidden ">
@@ -34,7 +32,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                       <Filebar></Filebar>
                       </div>
                       <div className=' h-[calc(100vh-88px)] w-auto overflow-hidden md:pb-0'>
-          {children}
+    {children}
           </div>
           </div>
 </div>

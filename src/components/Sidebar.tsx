@@ -22,14 +22,6 @@ else{
 }
 
 const paths = ['/git','/search','/projects','/contact']
-const variants = {
-  open: {
-    transition: { staggerChildren: 0.07, delayChildren: 0.2 }
-  },
-  closed: {
-    transition: { staggerChildren: 0.05, staggerDirection: -1 }
-  }
-};
 
   return (
     <div className="flex flex-row">
@@ -67,8 +59,7 @@ const variants = {
       </div>
 
     </header>
-    <motion.aside variants={variants}
-      >
+
 
     <header className={`flex h-[calc(100vh-48px)] w-48 flex-col content-center items-center border-r border-r-[#121212] bg-neutral-900 p-0 transition-all duration-200 ease-linear  ${file?'':'hidden'}`}>
     
@@ -110,7 +101,6 @@ const variants = {
           </div>
           </div>
         </header>
-        </motion.aside>
 
         </div>
 
