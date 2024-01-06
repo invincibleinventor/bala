@@ -8,17 +8,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Icon } from '@iconify/react';
 import { motion } from 'framer-motion';
-import useScreenType from 'react-screentype-hook';
 
 export default function Sidebar() {
   const [file, setFile] = useState(true);
 
-  let ak = true;
-  if (typeof window !== 'undefined') {
-    const screenType = useScreenType();
-    ak = screenType.isiMobile || screenType.isTablet;
-  }
-  const [expanded, setExpanded] = useState(!ak);
+  const [expanded, setExpanded] = useState(false);
 
   const path = usePathname();
   let a = '';
