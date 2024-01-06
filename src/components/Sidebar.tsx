@@ -10,9 +10,9 @@ import { Icon } from '@iconify/react';
 import { motion } from 'framer-motion';
 
 export default function Sidebar() {
-  const [file, setFile] = useState(true);
+  const [file, setFile] = useState(false);
 
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
 
   const path = usePathname();
   let a = '';
