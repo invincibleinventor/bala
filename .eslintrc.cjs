@@ -13,6 +13,7 @@ const config = {
         tsconfigRootDir: __dirname,
       },
       rules: {
+        'react/no-unescaped-entities': 0,
         '@next/next/no-html-link-for-pages': ['off'],
       },
       settings: {},

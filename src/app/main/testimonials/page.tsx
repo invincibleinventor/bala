@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { CodeBlock, atomOneDark, vs2015 } from 'react-code-blocks';
 
 import React from 'react';
-import Slider from 'react-animated-slider';
+
 
 
 
