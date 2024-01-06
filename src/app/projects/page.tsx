@@ -1,17 +1,15 @@
 // @ts-nocheck
-'use client'
+'use client';
+
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { CodeBlock, atomOneDark, vs2015 } from 'react-code-blocks';
-
-
+import { atomOneDark, CodeBlock, vs2015 } from 'react-code-blocks';
 
 export default function Home() {
- 
-      const showLineNumbers = true;
-      const wrapLines = true;
-      const codeBlock = true;
-      /* <CodeBlock
+  const showLineNumbers = true;
+  const wrapLines = true;
+  const codeBlock = true;
+  /* <CodeBlock
 customStyle={{
   height:'100%',
 }}           text={`{
@@ -67,63 +65,143 @@ customStyle={{
             {...{ showLineNumbers, wrapLines, codeBlock }}
           />
           */
-      return (
-        <div className="container no-scrollbar mx-auto h-auto max-h-[calc(100vh-140px)] overflow-y-scroll">
-<div className="grid grid-cols-1  gap-6  p-6  md:grid-cols-2 lg:grid-cols-4">
-<div
-            className=" border-l-blue-600 relative flex h-[500px] flex-col bg-black bg-opacity-20"
+  return (
+    <div className="container no-scrollbar mx-auto h-auto md:max-h-full max-h-[calc(100vh-140px)] overflow-y-scroll">
+      <div className="grid grid-cols-1  gap-6  p-6  md:grid-cols-2 lg:grid-cols-4">
+        <div className=" border-l-blue-600 relative flex h-[500px] flex-col bg-black bg-opacity-20">
+          <img src="/images/1.png" className="h-44 w-full"></img>
+          <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">Bindows 11</h1>
+          <h1 className="mt-1 px-4 text-xs leading-relaxed text-neutral-400">
+            It aims at emulating the overall UI of Windows11 as an attempt to showcase the
+            capabilities of modern web technologies
+          </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">
+            Technologies Used
+          </h1>
+          <h1 className="mt-2 px-4 text-xs text-neutral-400">Typescript, VanillaCSS</h1>
+
+          <Link
+            href="https://w11.vercel.app"
+            className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2"
           >
-            <img src="/images/1.png" className='h-44 w-full'></img>
-            <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">Bindows 11</h1>
-          <h1 className='mt-1 px-4 text-xs leading-relaxed text-neutral-400'>It aims at emulating the overall UI of Windows11 as an attempt to showcase the capabilities of modern web technologies</h1>
-          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
-          <h1 className='mt-2 px-4 text-xs text-neutral-400'>Typescript, VanillaCSS</h1>
-          
-          <Link href="https://w11.vercel.app" className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2">
-          
-          <div className='mx-auto flex flex-row content-center items-center space-x-2'>
-          <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
-          <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
-          </div>
-        
-        </Link>
-        
-          </div>
-          <div
-            className="relative flex h-[500px] flex-col bg-black bg-opacity-20"
+            <div className="mx-auto flex flex-row content-center items-center space-x-2">
+              <iconify-icon
+                class="text-[14px] text-neutral-500 hover:text-neutral-400"
+                icon="codicon:source-control"
+              ></iconify-icon>
+              <h1 className="font-jost text-sm font-medium text-neutral-400">Project Link</h1>
+            </div>
+          </Link>
+        </div>
+        <div className="relative flex h-[500px] flex-col bg-black bg-opacity-20">
+          <img src="/images/2.png" className="h-44 w-full"></img>
+          <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">
+            Filmhood Journal
+          </h1>
+          <h1 className="mt-1 px-4 text-xs leading-relaxed text-neutral-400">
+            A hobby wordpress website for an young aspiring filmmaker friend of mine to put out his
+            thoughts on to the web publicly
+          </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">
+            Technologies Used
+          </h1>
+          <h1 className="mt-2 px-4 text-xs text-neutral-400">Wordpress, Google Analytics</h1>
+          <Link
+            href="https://filmhoodjournal.com"
+            className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2"
           >
-            <img src="/images/2.png" className='h-44 w-full'></img>
-            <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">Filmhood Journal</h1>
-          <h1 className='mt-1 px-4 text-xs leading-relaxed text-neutral-400'>A hobby wordpress website for an young aspiring filmmaker friend of mine to put out his thoughts on to the web publicly</h1>
-          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
-          <h1 className='mt-2 px-4 text-xs text-neutral-400'>Wordpress, Google Analytics</h1>
-          <Link href="https://filmhoodjournal.com" className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2">
-          <div className='mx-auto flex flex-row content-center items-center space-x-2'>
-          <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
-          <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
-          </div>
-        </Link>
-          </div>
-          <div
-            className="relative flex h-[500px] flex-col bg-black bg-opacity-20"
+            <div className="mx-auto flex flex-row content-center items-center space-x-2">
+              <iconify-icon
+                class="text-[14px] text-neutral-500 hover:text-neutral-400"
+                icon="codicon:source-control"
+              ></iconify-icon>
+              <h1 className="font-jost text-sm font-medium text-neutral-400">Project Link</h1>
+            </div>
+          </Link>
+        </div>
+        <div className="relative flex h-[500px] flex-col bg-black bg-opacity-20">
+          <img src="/images/3.png" className="h-44 w-full"></img>
+          <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">Calistnx</h1>
+          <h1 className="mt-1 px-4 text-xs leading-relaxed text-neutral-400">
+            It is a website built with WordPress for a social media influencer with modern ecommerce
+            features like creating and managing video based courses, accepting UPI payments and more
+          </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">
+            Technologies Used
+          </h1>
+          <h1 className="mt-2 px-4 text-xs leading-relaxed text-neutral-400">
+            Wordpress, WooCommerce, Knit Pay, Stripe, Google Analytics
+          </h1>
+          <Link
+            href="https://calistnx.com"
+            className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2"
           >
-            <img src="/images/3.png" className='h-44 w-full'></img>
-            <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">Calistnx</h1>
-          <h1 className='mt-1 px-4 text-xs leading-relaxed text-neutral-400'>It is a website built with WordPress for a social media influencer with modern ecommerce features like creating and managing video based courses, accepting UPI payments and more</h1>
-          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">Technologies Used</h1>
-          <h1 className='mt-2 px-4 text-xs leading-relaxed text-neutral-400'>Wordpress, WooCommerce, Knit Pay, Stripe, Google Analytics</h1>
-          <Link href="https://calistnx.com" className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2">
-          <div className='mx-auto flex flex-row content-center items-center space-x-2'>
-          <iconify-icon class="text-[14px] text-neutral-500 hover:text-neutral-400" icon="codicon:source-control"></iconify-icon>
-          <h1 className='font-jost text-sm font-medium text-neutral-400'>Project Link</h1>
-          </div>
-        </Link>
-          </div>
-          
-         
+            <div className="mx-auto flex flex-row content-center items-center space-x-2">
+              <iconify-icon
+                class="text-[14px] text-neutral-500 hover:text-neutral-400"
+                icon="codicon:source-control"
+              ></iconify-icon>
+              <h1 className="font-jost text-sm font-medium text-neutral-400">Project Link</h1>
+            </div>
+          </Link>
+        </div>
+
+        <div className="relative flex h-[500px] flex-col bg-black bg-opacity-20">
+          <img src="/images/4.png" className="h-44 w-full"></img>
+          <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">
+            TTS Internal Tools
+          </h1>
+          <h1 className="mt-1 px-4 text-xs leading-relaxed text-neutral-400">
+            It is a comprehensive web app that acted as the one-stop solution for electronic
+            management of all data that was accumulated during the Golden Jubilee fests at The TVS
+            during 2022.
+          </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">
+            Technologies Used
+          </h1>
+          <h1 className="mt-2 px-4 text-xs leading-relaxed text-neutral-400">
+            Qwik JS, TailwindCSS, Supabase, AppWrite, Storage VPS (Ubuntu)
+          </h1>
+          <Link
+            href="https://calistnx.com"
+            className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2"
+          >
+            <div className="mx-auto flex flex-row content-center items-center space-x-2">
+              <iconify-icon
+                class="text-[14px] text-neutral-500 hover:text-neutral-400"
+                icon="codicon:source-control"
+              ></iconify-icon>
+              <h1 className="font-jost text-sm font-medium text-neutral-400">Project Link</h1>
+            </div>
+          </Link>
+        </div>
+        <div className="relative flex h-[500px] flex-col bg-black bg-opacity-20">
+          <img src="/images/5.png" className="h-44 w-full"></img>
+          <h1 className="font-jost mt-6 px-4 text-lg font-bold text-neutral-300">Evolt</h1>
+          <h1 className="mt-1 px-4 text-xs leading-relaxed text-neutral-400">
+            Evolt is a new coming-of-the-age content publishing platform that aims at providing an
+            accessible platform for people to publish their written works to the public for free.
+          </h1>
+          <h1 className="font-jost mt-4 px-4 text-sm font-semibold text-neutral-300">
+            Technologies Used
+          </h1>
+          <h1 className="mt-2 px-4 text-xs leading-relaxed text-neutral-400">
+            Next.JS, Supabase, TailwindCSS, Amazon S3
+          </h1>
+          <Link
+            href="https://evoltwebs.vercel.app"
+            className="absolute bottom-0 mt-4 flex w-full content-center items-center bg-black bg-opacity-20 py-2"
+          >
+            <div className="mx-auto flex flex-row content-center items-center space-x-2">
+              <iconify-icon
+                class="text-[14px] text-neutral-500 hover:text-neutral-400"
+                icon="codicon:source-control"
+              ></iconify-icon>
+              <h1 className="font-jost text-sm font-medium text-neutral-400">Project Link</h1>
+            </div>
+          </Link>
         </div>
       </div>
-      );
-      
-  
+    </div>
+  );
 }

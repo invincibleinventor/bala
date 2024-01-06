@@ -75,15 +75,23 @@ export default async function meta(): Promise<Metadata> {
     generator: 'Next.js',
     applicationName: 'BalaPortfolio',
     referrer: 'origin-when-cross-origin',
-    keywords: ['Portfolio','Balasubramanian','TBR','TBR Balasubramanian','Balasubramanian TBR','Visual Studio Code', 'Next.js', 'React', 'JavaScript'],
+    keywords: [
+      'Portfolio',
+      'Balasubramanian',
+      'TBR',
+      'TBR Balasubramanian',
+      'Balasubramanian TBR',
+      'Visual Studio Code',
+      'Next.js',
+      'React',
+      'JavaScript',
+    ],
     authors: [
       {
         name: 'Bala',
         url: 'https://bala.dev',
       },
     ],
-    themeColor: 'black',
-    colorScheme: 'dark',
     creator: 'TBR Balasubramanian',
     publisher: 'TBR Balasubramanian',
     formatDetection: {
