@@ -12,11 +12,12 @@ import useScreenType from 'react-screentype-hook';
 
 export default function Sidebar() {
   const [file, setFile] = useState(true);
-  const [screenType, setScreenType] = useState<any>();
-  useEffect(() => {
-    setScreenType(useScreenType());
-  }, []);
-  let ak = screenType.isiMobile || screenType.isTablet;
+
+  let ak = true;
+  if (typeof window !== 'undefined') {
+    const screenType = useScreenType();
+    ak = screenType.isiMobile || screenType.isTablet;
+  }
   const [expanded, setExpanded] = useState(!ak);
 
   const path = usePathname();
@@ -113,7 +114,7 @@ export default function Sidebar() {
             className="flex w-48 cursor-pointer flex-row content-center items-center space-x-0 p-1 pt-2"
             onClick={() => setExpanded(!expanded)}
           >
-            <iconify-icon class=" ml-2" icon="codicon:chevron-down"></iconify-icon>
+            <iconify-icon class="text-white ml-2" icon="codicon:chevron-down"></iconify-icon>
 
             <span className=" cursor-pointer px-2 py-1 text-[15px] font-medium text-neutral-200">
               BALA
