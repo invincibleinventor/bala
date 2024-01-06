@@ -1,7 +1,7 @@
 // @ts-nocheck
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Familjen_Grotesk } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,9 +9,13 @@ import { usePathname } from 'next/navigation';
 import { Icon } from '@iconify/react';
 import { motion } from 'framer-motion';
 import useScreenType from 'react-screentype-hook';
+
 export default function Sidebar() {
   const [file, setFile] = useState(true);
-  const screenType = useScreenType();
+  const [screenType, setScreenType] = useState<any>();
+  useEffect(() => {
+    setScreenType(useScreenType());
+  }, []);
   let ak = screenType.isiMobile || screenType.isTablet;
   const [expanded, setExpanded] = useState(!ak);
 
