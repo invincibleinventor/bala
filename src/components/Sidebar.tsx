@@ -8,7 +8,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Icon } from '@iconify/react';
 import { motion } from 'framer-motion';
-
+import useScreenType from 'react-screentype-hook';
 export default function Sidebar() {
   const [file, setFile] = useState(true);
   const screenType = useScreenType();
