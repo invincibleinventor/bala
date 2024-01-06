@@ -10,7 +10,9 @@ import { useState } from 'react';
 import { Familjen_Grotesk } from 'next/font/google';
 export default function Sidebar() {
   const [file,setFile] = useState(true)
-  const [expanded,setExpanded] = useState(true)
+  const screenType = useScreenType();
+  let a = screenType.isiMobile || screenType.isTablet
+  const [expanded,setExpanded] = useState(!a)
 
   const path = usePathname()
 let a = '';

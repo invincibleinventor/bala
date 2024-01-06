@@ -38,7 +38,7 @@ export default function Home() {
                     <span className="bg-cyan-700 rounded-md px-2 mx-1 text-white font-medium">
                       frontends
                     </span>{' '}
-                    that scale and ardently love{' '}
+                    that scale and i'm an ardent lover of{' '}
                     <span className="bg-neutral-700 rounded-md px-2 mx-1 text-white font-medium">
                       linux
                     </span>{' '}
@@ -50,15 +50,15 @@ export default function Home() {
                     <span className="bg-green-700 rounded-md px-2 mx-1 text-white font-medium">
                       collaborate
                     </span>{' '}
-                    with people and i'm at my most comfy self at{' '}
+                    with people. i'm at my most comfy self at{' '}
                     <span className="bg-blue-700 rounded-md px-2 mx-1 text-white font-medium">
                       next.js
                     </span>{' '}
-                    and i highly use{' '}
+                    and i use{' '}
                     <span className="bg-violet-700 rounded-md px-2 mx-1 text-white font-medium">
                       tailwindcss
                     </span>{' '}
-                    i'm familar with version control systems like and essential tools like{' '}
+                    i'm quite familar with version control systems like and essential tools like{' '}
                     <span className="bg-teal-700 rounded-md px-2 mx-1 text-white font-medium">
                       git
                     </span>{' '}
