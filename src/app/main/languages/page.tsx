@@ -7,8 +7,9 @@ export default function Home() {
   const wrapLines = true;
   const codeBlock = true;
   return (
-    <div className=" flex flex-grow overflow-x-hidden overflow-y-hidden font-mono">
+    <div className=" flex flex-grow  overflow-y-hidden font-mono">
       <CodeBlock
+        customStyle={{ width: '100%' }}
         text={`{
   "web": {
     "html": "fluent",
@@ -18,8 +19,8 @@ export default function Home() {
     },
     "js": {
       "react": {
-        "next-js": "fluent",
-        "qwik-js": "in-progress",
+        "nextjs": "fluent",
+        "qwikjs": "fluent",
         "svelte": "in-progress"
       },
       "node": {
@@ -34,7 +35,7 @@ export default function Home() {
   },
   "operating-systems": {
     "linux": {
-      "arch-linux": "fluent (i use arch btw)",
+      "arch-linux": "fluent",
       "gentoo": "decent",
       "opensuse": "fluent",
       "ubuntu": "fluent",
@@ -54,11 +55,10 @@ export default function Home() {
     "vscode": "fluent",
     "figma": "fluent",
     "adobe-xd": "fluent",
-    "sysadministration": "fluent",
+    "sysadmin": "fluent",
     "english": "fluent",
     "tamil": "fluent",
-    "being_a_jerk": "very fluent"
-  }
+    }
 }`}
         language={'json'}
         theme={vs2015}
