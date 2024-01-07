@@ -164,10 +164,10 @@ export default function Sidebar() {
               </div>
             </Link>
             <Link
-              href="/main/testimonials"
+              href="/main/reviews"
               scroll={true}
               className={`flex w-48 shrink-0 flex-row content-center items-center space-x-1 bg-neutral-900  py-1  text-sm text-neutral-300 ${
-                path == '/main/testimonials' ? 'neut-800  text-neutral-200' : ''
+                path == '/main/reviews' ? 'neut-800  text-neutral-200' : ''
               }`}
             >
               <div className="ml-3 mr-auto flex flex-row content-center items-center space-x-1">
@@ -176,7 +176,7 @@ export default function Sidebar() {
                   icon="clarity:code-line"
                 ></iconify-icon>
 
-                <span className=" text-[15px] text-neutral-300">testimonials.o</span>
+                <span className=" text-[15px] text-neutral-300">reviews.o</span>
               </div>
             </Link>
           </div>

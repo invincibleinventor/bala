@@ -55,9 +55,9 @@ export default function Filebar() {
         </div>
       </Link>
       <Link
-        href="/main/testimonials"
+        href="/main/reviews"
         className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
-          path == '/main/testimonials'
+          path == '/main/reviews'
             ? 'neut-800 border-t-2 border-t-[#3b82f6]    text-neutral-200'
             : ''
         }`}
@@ -65,7 +65,7 @@ export default function Filebar() {
         <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
           <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
 
-          <span className=" text-[14px] text-neutral-300">testimonials.o</span>
+          <span className=" text-[14px] text-neutral-300">reviews.o</span>
         </div>
       </Link>
     </header>
