@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="no-scrollbar flex h-auto  flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
+    <div className="no-scrollbar flex h-auto w-auto  flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
       <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row-reverse">
         <div className="my-auto flex flex-col content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10 ">
           <h1 className="font-neutral text-3xl text-neutral-300">hi! I&apos;m</h1>
@@ -34,11 +34,11 @@ export default function Home() {
               <li>
                 <div className="flex flex-row items-center content-center space-x-2">
                   <h1 style={{ lineHeight: 2.4 }}>
-                    I'm a high schooler from India that loves creating{' '}
+                    I'm a high schooler from India that loves to tinker with{' '}
                     <span className="bg-cyan-700 rounded-md px-2 mx-1 text-white font-medium">
-                      frontends
+                      frontend designing
                     </span>{' '}
-                    that scale and i'm an ardent lover of{' '}
+                    i'm an ardent lover of{' '}
                     <span className="bg-neutral-700 rounded-md px-2 mx-1 text-white font-medium">
                       linux
                     </span>{' '}
@@ -46,23 +46,27 @@ export default function Home() {
                     <span className="bg-pink-700 rounded-md px-2 mx-1 text-white font-medium">
                       foss
                     </span>{' '}
-                    i'm a self taught web dev and i'm open to help and{' '}
+                    i'm a self taught web dev, open to help and{' '}
                     <span className="bg-green-700 rounded-md px-2 mx-1 text-white font-medium">
                       collaborate
                     </span>{' '}
-                    with people. i'm at my most comfy self at{' '}
+                    with people. i'm best at using{' '}
                     <span className="bg-blue-700 rounded-md px-2 mx-1 text-white font-medium">
                       next.js
                     </span>{' '}
-                    and i use{' '}
+                    and i am a fan of{' '}
                     <span className="bg-violet-700 rounded-md px-2 mx-1 text-white font-medium">
                       tailwindcss
                     </span>{' '}
-                    i'm quite familar with version control systems like and essential tools like{' '}
+                    i'm quite familar with version control systems like{' '}
                     <span className="bg-teal-700 rounded-md px-2 mx-1 text-white font-medium">
                       git
                     </span>{' '}
-                    and i also love using{' '}
+                    and essential tools like{' '}
+                    <span className="bg-teal-700 rounded-md px-2 mx-1 text-white font-medium">
+                      docker
+                    </span>{' '}
+                    i love using{' '}
                     <span className="bg-orange-700 rounded-md px-2 mx-1 text-white font-medium">
                       vsc
                     </span>{' '}
@@ -70,6 +74,7 @@ export default function Home() {
                     <span className="bg-cyan-700 rounded-md px-2 mx-1 text-white font-medium">
                       nvim
                     </span>{' '}
+                    as IDEs<br></br>
                     PS: i use{' '}
                     <span className="bg-sky-700 rounded-md px-2 mx-1 text-white font-medium">
                       arch
