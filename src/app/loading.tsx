@@ -1,8 +1,3 @@
-// @ts-nocheck
-'use client';
-
-import Link from 'next/link';
-
 export default function Home() {
   return (
     <div className="no-scrollbar flex h-auto overflow-x-hidden  w-[calc(100vw-58px)] flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
