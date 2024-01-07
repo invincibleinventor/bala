@@ -8,7 +8,7 @@ export default function Home() {
     <div className="no-scrollbar flex h-auto overflow-x-hidden  w-[calc(100vw-58px)] flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
       <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row-reverse">
         <div className="my-auto flex flex-col content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10 ">
-          <h1 className="font-neutral text-3xl text-neutral-300">hi! I&apos;m</h1>
+          <h1 className="font-neutral text-3xl text-neutral-300">hola! I&apos;m</h1>
           <h1 className="text-6xl font-black -ml-[1px] text-white md:text-8xl">bala.tbr</h1>
           <h1
             className="my-4 text-xs font-normal text-neutral-400 md:text-sm lg:my-6 lg:text-sm"
@@ -34,51 +34,110 @@ export default function Home() {
               <li>
                 <div className="flex flex-row items-center content-center space-x-2">
                   <h1 style={{ lineHeight: 2.4 }}>
-                    I'm a high schooler from India that loves to tinker with{' '}
-                    <span className="bg-cyan-700 rounded-md px-2 mx-1 text-white font-medium">
-                      frontend designing
-                    </span>{' '}
+                    I'm a passionate geek from India that loves to tinker with{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        Basically everything you see
+                      </div>
+                      <div className="bg-fuchsia-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>frontend</span>
+                      </div>
+                    </div>
+                    {'. '}
                     i'm an ardent lover of{' '}
-                    <span className="bg-neutral-700 rounded-md px-2 mx-1 text-white font-medium">
-                      linux
-                    </span>{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        The Best OS
+                      </div>
+                      <div className="bg-cyan-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>linux</span>
+                      </div>{' '}
+                    </div>{' '}
                     and{' '}
-                    <span className="bg-pink-700 rounded-md px-2 mx-1 text-white font-medium">
-                      foss
-                    </span>{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        Free & Open Source
+                      </div>
+                      <div className="bg-neutral-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>foss</span>
+                      </div>{' '}
+                    </div>
+                    principles
+                    {'. '}
                     i'm a self taught web dev, open to help and{' '}
-                    <span className="bg-green-700 rounded-md px-2 mx-1 text-white font-medium">
-                      collaborate
-                    </span>{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        Meh, learn English
+                      </div>
+                      <div className="bg-violet-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>collaborate</span>
+                      </div>{' '}
+                    </div>
                     with people. i'm best at using{' '}
-                    <span className="bg-blue-700 rounded-md px-2 mx-1 text-white font-medium">
-                      next.js
-                    </span>{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        React JS Framework
+                      </div>
+                      <div className="bg-green-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>next.js</span>
+                      </div>{' '}
+                    </div>{' '}
                     and i am a fan of{' '}
-                    <span className="bg-violet-700 rounded-md px-2 mx-1 text-white font-medium">
-                      tailwindcss
-                    </span>{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        CSS Framework
+                      </div>
+                      <div className="bg-teal-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>tailwindcss</span>
+                      </div>{' '}
+                    </div>
+                    {'. '}
                     i'm quite familar with version control systems like{' '}
-                    <span className="bg-teal-700 rounded-md px-2 mx-1 text-white font-medium">
-                      git
-                    </span>{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        Makes life easy
+                      </div>
+                      <div className="bg-red-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>git</span>
+                      </div>{' '}
+                    </div>
                     and essential tools like{' '}
-                    <span className="bg-teal-700 rounded-md px-2 mx-1 text-white font-medium">
-                      docker
-                    </span>{' '}
-                    i love using{' '}
-                    <span className="bg-orange-700 rounded-md px-2 mx-1 text-white font-medium">
-                      vsc
-                    </span>{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        Containerizing Software{' '}
+                      </div>
+                      <div className="bg-orange-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>docker</span>
+                      </div>{' '}
+                    </div>
+                    {'. '}i love using{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        VSCode
+                      </div>
+                      <div className="bg-yellow-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>vsc</span>
+                      </div>{' '}
+                    </div>{' '}
                     and{' '}
-                    <span className="bg-cyan-700 rounded-md px-2 mx-1 text-white font-medium">
-                      nvim
-                    </span>{' '}
-                    as IDEs<br></br>
-                    PS: i use{' '}
-                    <span className="bg-sky-700 rounded-md px-2 mx-1 text-white font-medium">
-                      arch
-                    </span>{' '}
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        The IDE for chads
+                      </div>
+                      <div className="bg-pink-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>nvim</span>
+                      </div>{' '}
+                    </div>
+                    {'. '}
+                    PS: i use
+                    <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
+                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                        A Popular Linux Distro
+                      </div>
+                      <div className="bg-sky-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
+                        <span>arch</span>
+                      </div>{' '}
+                    </div>
                     btw :P
                   </h1>
                 </div>
