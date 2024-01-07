@@ -10,7 +10,7 @@ export default function Filebar() {
   const path = usePathname();
   const paths = ['/search', '/git', '/projects', '/contact'];
   return (
-    <header className="flex h-10 shrink-0 flex-row  bg-neutral-900">
+    <header className="flex no-scrollbar overflow-x-scroll w-[calc(100vw-58px)] h-10 shrink-0 flex-row  bg-neutral-900">
       <Link
         href="/"
         className={`flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
