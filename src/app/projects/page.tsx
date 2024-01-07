@@ -66,7 +66,7 @@ customStyle={{
           />
           */
   return (
-    <div className="container no-scrollbar mx-auto h-auto md:max-h-full max-h-[calc(100vh-140px)] overflow-y-scroll">
+    <div className="container no-scrollbar mx-auto w-[calc(100vw-58px)]  overflow-y-scroll">
       <div className="grid grid-cols-1  gap-6  p-6  md:grid-cols-2 lg:grid-cols-4">
         <div className=" border-l-blue-600 relative flex h-[500px] flex-col bg-black bg-opacity-20">
           <img src="/images/1.png" className="h-44 w-full"></img>

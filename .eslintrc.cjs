@@ -15,7 +15,7 @@ const config = {
       rules: {
         'react/no-unescaped-entities': 0,
         '@next/next/no-html-link-for-pages': ['off'],
-        'tailwindcss/no-contradicting-classnames': 0,
+        'tailwindcss/no-contradicting-classname': 0,
       },
       settings: {},
     },
