@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="no-scrollbar flex h-auto w-auto  flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
+    <div className="no-scrollbar flex h-auto overflow-x-hidden  w-[calc(100vw-58px)] flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
       <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row-reverse">
         <div className="my-auto flex flex-col content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10 ">
           <h1 className="font-neutral text-3xl text-neutral-300">hi! I&apos;m</h1>

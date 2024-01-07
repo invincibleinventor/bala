@@ -32,7 +32,9 @@ export default function RootLayout({ children }: RootLayoutProps, props: AppProp
               <div className="no-scrollbar overflow-x-scroll">
                 <Filebar></Filebar>
               </div>
-              <div className="h-full w-full pb-12 codeblockdiv overflow-scroll ">{children}</div>
+              <div className="h-full pb-12 codeblockdiv overflow-scroll overflow-x-hidden">
+                {children}
+              </div>
             </div>
           </div>
         </div>
