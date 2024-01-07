@@ -37,7 +37,7 @@ export default function Home() {
                     I'm a passionate geek from India that loves to tinker with{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        Basically everything you see
+                        everything not backend
                       </div>
                       <div className="bg-fuchsia-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>frontend</span>
@@ -47,7 +47,7 @@ export default function Home() {
                     i'm an ardent lover of{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        The Best OS
+                        an os dumbo
                       </div>
                       <div className="bg-cyan-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>linux</span>
@@ -56,7 +56,7 @@ export default function Home() {
                     and{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        Free & Open Source
+                        free & open source
                       </div>
                       <div className="bg-neutral-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>foss</span>
@@ -67,7 +67,7 @@ export default function Home() {
                     i'm a self taught web dev, open to help and{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        Meh, learn English
+                        learn english
                       </div>
                       <div className="bg-violet-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>collaborate</span>
@@ -76,7 +76,7 @@ export default function Home() {
                     with people. i'm best at using{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        React JS Framework
+                        react js framework
                       </div>
                       <div className="bg-green-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>next.js</span>
@@ -85,7 +85,7 @@ export default function Home() {
                     and i am a fan of{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        CSS Framework
+                        css framework
                       </div>
                       <div className="bg-teal-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>tailwindcss</span>
@@ -95,7 +95,7 @@ export default function Home() {
                     i'm quite familar with version control systems like{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        Makes life easy
+                        makes life easy
                       </div>
                       <div className="bg-red-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>git</span>
@@ -104,7 +104,7 @@ export default function Home() {
                     and essential tools like{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        Containerizing Software{' '}
+                        complicated shit{' '}
                       </div>
                       <div className="bg-orange-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>docker</span>
@@ -113,7 +113,7 @@ export default function Home() {
                     {'. '}i love using{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        VSCode
+                        vscode meh
                       </div>
                       <div className="bg-yellow-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>vsc</span>
@@ -132,7 +132,7 @@ export default function Home() {
                     PS: i use
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
-                        A Popular Linux Distro
+                        linux distro
                       </div>
                       <div className="bg-sky-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
                         <span>arch</span>
