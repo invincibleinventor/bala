@@ -15,6 +15,17 @@
         scrollbar-width: none;  /* Firefox */
     }
 
+    .codeblockdiv {
+        height: 100%;
+        width: 100%;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        
+    }
+    .codeblockdiv::-webkit-scrollbar{
+        display: none;
+    }
+
     .neut-800{
 background-color: #1e1e1e;
     }

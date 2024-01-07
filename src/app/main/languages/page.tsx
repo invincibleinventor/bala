@@ -1,21 +1,15 @@
-'use client'
-import { CodeBlock, atomOneDark, vs2015 } from 'react-code-blocks';
+'use client';
 
-
+import { atomOneDark, CodeBlock, vs2015 } from 'react-code-blocks';
 
 export default function Home() {
- 
-      const showLineNumbers = true;
-      const wrapLines = true;
-      const codeBlock = true;
-      return (
-        <div
-        className='no-scrollbar max-h-[calc(100vh-140px)] overflow-y-scroll font-mono lg:max-h-[calc(100vh-88px)]'
-        >
-          <CodeBlock
-customStyle={{
-  height:'100%',
-}} text={`{
+  const showLineNumbers = true;
+  const wrapLines = true;
+  const codeBlock = true;
+  return (
+    <div className=" flex flex-grow overflow-x-hidden overflow-y-hidden font-mono">
+      <CodeBlock
+        text={`{
   "web": {
     "html": "fluent",
     "css": {
@@ -66,13 +60,10 @@ customStyle={{
     "being_a_jerk": "very fluent"
   }
 }`}
-
-            language={'json'}
-            theme={vs2015}
-            {...{ showLineNumbers, wrapLines, codeBlock }}
-          />
-        </div>
-      );
-      
-  
+        language={'json'}
+        theme={vs2015}
+        {...{ showLineNumbers, wrapLines, codeBlock }}
+      />
+    </div>
+  );
 }

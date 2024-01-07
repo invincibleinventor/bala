@@ -41,6 +41,7 @@
     "react-dom": "^18.2.0",
     "react-responsive-system": "^0.10.2",
     "react-screentype-hook": "^1.0.18",
+    "react-swipeable-views": "^0.14.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
