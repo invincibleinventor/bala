@@ -28,7 +28,7 @@ export default function Contact() {
 
   return (
     <main className="flex flex-col items-center">
-      <form onSubmit={handleSubmit} className="space-y-4 mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+      <form onSubmit={handleSubmit} className="space-y-4 mt-8 mb-2 w-80 mx-4 max-w-screen-lg sm:w-96">
         <div className="mb-4 flex flex-col w-500">
           <label htmlFor="form-name" className="mb-2  text-neutral-400 text-sm">
             Name{' '}
@@ -38,7 +38,7 @@ export default function Contact() {
             autoComplete="name"
             maxLength={50}
             name="name"
-            className="text-white mb-6 bg-neutral-900 border border-neutral-500 px-5 py-3 text-sm outline-none"
+            className="text-white mb-6 bg-neutral-900 border border-neutral-700 px-5 py-3 text-sm outline-none"
           />
 
           <label htmlFor="form-email" className="mb-2  text-neutral-400 text-sm">
@@ -51,7 +51,7 @@ export default function Contact() {
             maxLength={80}
             name="email"
             type="email"
-            className="text-white mb-6 bg-neutral-900 border border-neutral-500 px-5 py-3 text-sm outline-none"
+            className="text-white mb-6 bg-neutral-900 border border-neutral-700 px-5 py-3 text-sm outline-none"
           />
 
           <label htmlFor="form-message" className="mb-2  text-neutral-400 text-sm">
@@ -63,11 +63,11 @@ export default function Contact() {
             required
             name="message"
             rows={5}
-            className="text-white mb-0 bg-neutral-900 border border-neutral-500 px-5 py-3 text-sm outline-none"
+            className="text-white mb-0 bg-neutral-900 border border-neutral-700 px-5 py-3 text-sm outline-none"
           />
         </div>
         <button
-          className="px-6 py-3 font-medium text-white mx-auto w-full bg-sky-600"
+          className="px-6 py-3 font-medium text-sm text-white mx-auto w-full bg-blue-600"
           type="submit"
         >
           Send
