@@ -28,7 +28,7 @@ export default function Contact() {
 
   return (
     <main className="flex flex-col items-center">
-      <form onSubmit={handleSubmit} className="space-y-4 mt-8 mb-2 w-80 mx-4 max-w-screen-lg sm:w-96">
+      <form onSubmit={handleSubmit} className="space-y-4 mt-8 mb-2 w-80 px-4 max-w-screen-lg sm:w-96">
         <div className="mb-4 flex flex-col w-500">
           <label htmlFor="form-name" className="mb-2  text-neutral-400 text-sm">
             Name:{' '}
@@ -67,7 +67,7 @@ export default function Contact() {
           />
         </div>
         <button
-          className="px-6 py-3 font-medium text-sm text-white mx-auto w-full bg-blue-600"
+          className="px-6 py-3 font-medium text-sm text-white mx-auto w-full bg-blue-500"
           type="submit"
         >
           Send
