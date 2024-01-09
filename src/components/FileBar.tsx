@@ -13,6 +13,7 @@ export default function Filebar() {
     <header className="flex no-scrollbar overflow-x-scroll w-[calc(100vw-58px)] h-10 shrink-0 flex-row  bg-neutral-900">
       <Link
         href="/"
+        scroll={false}
         className={`flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
           !path.includes('/main') && !paths.includes(path)
             ? 'neut-800 border-t-2 border-t-[#3b82f6] text-neutral-200'
@@ -27,6 +28,7 @@ export default function Filebar() {
       </Link>
       <Link
         href="/main/languages"
+        scroll={false}
         className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900 text-sm text-neutral-300 ${
           path == '/main/languages'
             ? 'neut-800 border-t-2 border-t-[#3b82f6]    text-neutral-200'
@@ -41,6 +43,7 @@ export default function Filebar() {
       </Link>
 
       <Link
+        scroll={false}
         href="/main/education"
         className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
           path == '/main/education'
@@ -55,6 +58,7 @@ export default function Filebar() {
         </div>
       </Link>
       <Link
+        scroll={false}
         href="/main/reviews"
         className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
           path == '/main/reviews'
