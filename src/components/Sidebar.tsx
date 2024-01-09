@@ -124,11 +124,11 @@ export default function Sidebar() {
             >
               <div className="ml-3 mr-auto flex flex-row content-center items-center space-x-1">
                 <iconify-icon
-                  class="text-2xl text-blue-400"
-                  icon="clarity:code-line"
+                  class="mr-2 text-[12.5px] text-blue-400"
+                  icon="logos:react"
                 ></iconify-icon>
 
-                <span className=" text-[15px] text-neutral-300">aboutMe.o</span>
+                <span className=" text-[15px] text-neutral-300">aboutMe.jsx</span>
               </div>
             </Link>
             <Link
@@ -139,28 +139,22 @@ export default function Sidebar() {
               }`}
             >
               <div className="ml-3 mr-auto flex flex-row content-center items-center space-x-1">
-                <iconify-icon
-                  class="text-2xl text-blue-400"
-                  icon="clarity:code-line"
-                ></iconify-icon>
+                <iconify-icon class=" mr-2 text-blue-400" icon="logos:javascript"></iconify-icon>
 
                 <span className=" text-[15px] text-neutral-300">languages.js</span>
               </div>
             </Link>
             <Link
-              href="/main/education"
+              href="/main/journey"
               scroll={false}
               className={`flex w-48 shrink-0 flex-row content-center items-center space-x-1 bg-neutral-900  py-1  text-sm text-neutral-300 ${
-                path == '/main/education' ? 'neut-800  text-neutral-200' : ''
+                path == '/main/journey' ? 'neut-800  text-neutral-200' : ''
               }`}
             >
               <div className="ml-3 mr-auto flex flex-row content-center items-center space-x-1">
-                <iconify-icon
-                  class="text-2xl text-blue-400"
-                  icon="clarity:code-line"
-                ></iconify-icon>
+                <iconify-icon class="text-[8px] mr-2" icon="logos:tailwindcss-icon"></iconify-icon>
 
-                <span className=" text-[15px] text-neutral-300">education.o</span>
+                <span className=" text-[15px] text-neutral-300">journey.css</span>
               </div>
             </Link>
             <Link
@@ -171,12 +165,9 @@ export default function Sidebar() {
               }`}
             >
               <div className="ml-3 mr-auto flex flex-row content-center items-center space-x-1">
-                <iconify-icon
-                  class="text-2xl text-blue-400"
-                  icon="clarity:code-line"
-                ></iconify-icon>
+                <iconify-icon class="text-sm mr-2 text-blue-400" icon="logos:python"></iconify-icon>
 
-                <span className=" text-[15px] text-neutral-300">reviews.o</span>
+                <span className=" text-[15px] text-neutral-300">reviews.py</span>
               </div>
             </Link>
           </div>

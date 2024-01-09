@@ -14,29 +14,29 @@ export default function Filebar() {
       <Link
         href="/"
         scroll={false}
-        className={`flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
+        className={`flex border-x border-x-neutral-800 h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
           !path.includes('/main') && !paths.includes(path)
             ? 'neut-800 border-t-2 border-t-[#3b82f6] text-neutral-200'
             : ''
         }`}
       >
         <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
-          <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
+          <iconify-icon class="text-base mr-2 text-blue-400" icon="logos:react"></iconify-icon>
 
-          <span className=" text-[14px] text-neutral-300">aboutMe.o</span>
+          <span className=" text-[14px] text-neutral-300">aboutMe.jsx</span>
         </div>
       </Link>
       <Link
         href="/main/languages"
         scroll={false}
-        className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900 text-sm text-neutral-300 ${
+        className={` flex border-x border-x-neutral-800 h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900 text-sm text-neutral-300 ${
           path == '/main/languages'
             ? 'neut-800 border-t-2 border-t-[#3b82f6]    text-neutral-200'
             : ''
         }`}
       >
         <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
-          <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
+          <iconify-icon class="text-base mr-2 text-blue-400" icon="logos:javascript"></iconify-icon>
 
           <span className=" text-[14px] text-neutral-300">languages.js</span>
         </div>
@@ -44,32 +44,35 @@ export default function Filebar() {
 
       <Link
         scroll={false}
-        href="/main/education"
-        className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
-          path == '/main/education'
+        href="/main/journey"
+        className={` flex  h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 border-x border-x-neutral-800 ${
+          path == '/main/journey'
             ? 'neut-800 border-t-2 border-t-[#3b82f6]    text-neutral-200'
             : ''
         }`}
       >
-        <div className="ml-5 mr-auto flex flex-row content-center items-center space-x-1">
-          <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
+        <div className="ml-6 mr-auto flex flex-row content-center items-center space-x-1">
+          <iconify-icon class="text-[10px] mr-2" icon="logos:tailwindcss-icon"></iconify-icon>
 
-          <span className=" text-[14px] text-neutral-300">education.o</span>
+          <span className=" text-[14px] text-neutral-300">journey.css</span>
         </div>
       </Link>
       <Link
         scroll={false}
         href="/main/reviews"
-        className={` flex h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
+        className={` flex border-x border-x-neutral-800 h-10 w-40 shrink-0 flex-row content-center items-center space-x-1 border-t-2 border-t-[#121212] bg-neutral-900  text-sm text-neutral-300 ${
           path == '/main/reviews'
             ? 'neut-800 border-t-2 border-t-[#3b82f6]    text-neutral-200'
             : ''
         }`}
       >
-        <div className="ml-8 mr-auto flex flex-row content-center items-center space-x-1">
-          <iconify-icon class="text-2xl text-blue-400" icon="clarity:code-line"></iconify-icon>
+        <div className="ml-[26px] mr-auto flex flex-row content-center items-center space-x-1">
+          <iconify-icon
+            class="mr-2 text-base text-blue-400 pt-[2.2px]"
+            icon="logos:python"
+          ></iconify-icon>
 
-          <span className=" text-[14px] text-neutral-300">reviews.o</span>
+          <span className=" text-[14px] text-neutral-300">reviews.py</span>
         </div>
       </Link>
     </header>

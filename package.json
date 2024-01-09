@@ -25,6 +25,7 @@
   "dependencies": {
     "@emotion/is-prop-valid": "^1.2.1",
     "@emotion/react": "^11.11.3",
+    "@frank-mayer/react-tag-cloud": "^1.2.1",
     "@iconify/react": "^4.1.1",
     "@t3-oss/env-nextjs": "^0.7.1",
     "actions": "^1.3.0",

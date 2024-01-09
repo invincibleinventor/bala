@@ -1,13 +1,12 @@
 // @ts-nocheck
-'use client';
-
+import Tags from '@/components/skills';
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="no-scrollbar flex h-auto overflow-x-hidden  w-[calc(100vw-58px)] flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
       <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row-reverse">
-        <div className="my-auto flex flex-col content-center px-8 py-6 md:w-3/5 md:px-14 md:py-10 ">
+        <div className="my-auto flex flex-col content-center px-8 py-6 md:w-3/6 md:px-14 md:py-10 ">
           <h1 className="font-neutral text-3xl text-neutral-300">hola! I&apos;m</h1>
           <h1 className="text-6xl font-black -ml-[1px] text-white md:text-8xl">bala.tbr</h1>
           <h1
@@ -19,7 +18,7 @@ export default function Home() {
           </h1>
           <Link
             href={'/contact'}
-            className="my-2 w-max border border-neutral-700 bg-black bg-opacity-10 px-5 py-3 text-sm font-medium text-white"
+            className="my-2 w-max hover:bg-sky-600 transition-all ease-linear duration-100 border border-neutral-700 bg-black bg-opacity-10 px-5 py-3 text-sm font-medium text-white"
           >
             get in touch
           </Link>
@@ -92,7 +91,7 @@ export default function Home() {
                       </div>{' '}
                     </div>
                     {'. '}
-                    i'm quite familar with version control systems like{' '}
+                    i'm familar with VC systems like{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
                       <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
                         makes life easy
@@ -161,10 +160,11 @@ export default function Home() {
             </ul>
           </h1>
         </div>
-        <div className=" flex flex-row px-6 pb-5 pt-10 md:mt-10 md:w-2/5 md:p-0 md:pb-10 md:pl-10">
+        <div className=" flex flex-row px-6 pb-5 pt-10 md:mt-10 md:w-3/6 md:p-0 md:pb-10 md:pl-10">
+         <div className='hidden'>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="lg:w-[500px] lg:h-[500px] xl:h-[600px] xl:w-[700px] w-96 h-96 mx-auto my-auto"
+            className="lg:w-[500px] lg:h-[500px] xl:h-[500px] xl:w-[800px] w-96 h-96 mx-auto my-auto"
             viewBox="0 0 32 32"
           >
             <g fill="none">
@@ -1474,7 +1474,11 @@ export default function Home() {
                 </linearGradient>
               </defs>
             </g>
-          </svg>{' '}
+          </svg>
+          </div>
+          <Tags/>
+          {' '}
+
         </div>
       </div>
     </div>
