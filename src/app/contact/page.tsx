@@ -31,7 +31,7 @@ export default function Contact() {
       <form onSubmit={handleSubmit} className="space-y-4 mt-8 mb-2 w-80 mx-4 max-w-screen-lg sm:w-96">
         <div className="mb-4 flex flex-col w-500">
           <label htmlFor="form-name" className="mb-2  text-neutral-400 text-sm">
-            Name{' '}
+            Name:{' '}
           </label>
           <input
             id="form-name"
