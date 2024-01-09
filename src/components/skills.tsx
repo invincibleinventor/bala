@@ -130,66 +130,66 @@ const createItem = (
 
 const defaultState: tagSphereProps = {
   texts: [
-    <img width={35} key={1} src={'https://cdn.svgporn.com/logos/html-5.svg'} alt={'HTML5'} />,
-    <img width={35} key={2} src={'https://cdn.svgporn.com/logos/python.svg'} alt={'Python'} />,
-    <img width={35} key={3} src={'https://cdn.svgporn.com/logos/react.svg'} alt={'React'} />,
+    <img width={32} key={1} src={'https://cdn.svgporn.com/logos/html-5.svg'} alt={'HTML5'} />,
+    <img width={32} key={2} src={'https://cdn.svgporn.com/logos/python.svg'} alt={'Python'} />,
+    <img width={32} key={3} src={'https://cdn.svgporn.com/logos/react.svg'} alt={'React'} />,
     <img
-      width={35}
+      width={32}
       key={4}
       src={'https://cdn.svgporn.com/logos/tailwindcss-icon.svg'}
       alt={'TailwindCSS'}
     />,
-    <img key={5} width={35} src={'https://cdn.svgporn.com/logos/figma.svg'} alt={'Figma'} />,
-    <img key={6} width={35} src={'https://cdn.svgporn.com/logos/vim.svg'} alt={'VIM'} />,
-    <img width={35} key={7} src={'https://cdn.svgporn.com/logos/linux-tux.svg'} alt={'Linux'} />,
+    <img key={5} width={32} src={'https://cdn.svgporn.com/logos/figma.svg'} alt={'Figma'} />,
+    <img key={6} width={32} src={'https://cdn.svgporn.com/logos/vim.svg'} alt={'VIM'} />,
+    <img width={32} key={7} src={'https://cdn.svgporn.com/logos/linux-tux.svg'} alt={'Linux'} />,
     <img
-      width={35}
+      width={32}
       key={8}
       src={'https://cdn.svgporn.com/logos/javascript.svg'}
       alt={'Javascript'}
     />,
-    <img width={35} key={9} src={'https://cdn.svgporn.com/logos/adobe-xd.svg'} alt={'Adobe XD'} />,
+    <img width={32} key={9} src={'https://cdn.svgporn.com/logos/adobe-xd.svg'} alt={'Adobe XD'} />,
     <img
-      width={35}
+      width={32}
       key={10}
       src={'https://cdn.svgporn.com/logos/visual-studio-code.svg'}
       alt={'VSCode'}
     />,
-    <img width={35} key={11} src={'https://cdn.svgporn.com/logos/qwik-icon.svg'} alt={'QwikJS'} />,
+    <img width={32} key={11} src={'https://cdn.svgporn.com/logos/qwik-icon.svg'} alt={'QwikJS'} />,
     <img
-      width={35}
+      width={32}
       key={12}
       src={'https://cdn.svgporn.com/logos/svelte-icon.svg'}
       alt={'Svelte'}
     />,
-    <img width={35} key={13} src={'https://cdn.svgporn.com/logos/firebase.svg'} alt={'Firebase'} />,
+    <img width={32} key={13} src={'https://cdn.svgporn.com/logos/firebase.svg'} alt={'Firebase'} />,
     <img
-      width={35}
+      width={32}
       key={14}
       src={'https://cdn.svgporn.com/logos/nodejs-icon.svg'}
       alt={'NodeJS'}
     />,
     <img
-      width={35}
+      width={32}
       key={15}
       src={'https://cdn.svgporn.com/logos/supabase-icon.svg'}
       alt={'Supabase'}
     />,
-    <img width={35} key={16} src={'https://cdn.svgporn.com/logos/java.svg'} alt={'Java'} />,
+    <img width={32} key={16} src={'https://cdn.svgporn.com/logos/java.svg'} alt={'Java'} />,
     <img
-      width={35}
+      width={32}
       key={17}
       src={'https://cdn.svgporn.com/logos/nextjs-icon.svg'}
       alt={'NextJS'}
     />,
     <img
-      width={35}
+      width={32}
       key={18}
       src={'https://cdn.svgporn.com/logos/mongodb-icon.svg'}
       alt={'MongoDB'}
     />,
-    <img width={35} key={19} src={'https://cdn.svgporn.com/logos/git-icon.svg'} alt={'GIT'} />,
-    <img width={35} key={20} src={'https://cdn.svgporn.com/logos/lua.svg'} alt={'Lua'} />,
+    <img width={32} key={19} src={'https://cdn.svgporn.com/logos/git-icon.svg'} alt={'GIT'} />,
+    <img width={32} key={20} src={'https://cdn.svgporn.com/logos/lua.svg'} alt={'Lua'} />,
   ],
   maxSpeed: 1,
   initialSpeed: 1,
@@ -224,7 +224,7 @@ export default function TagSphere(props: any) {
       a = 15;
       radius = texts.length * a;
     } else {
-      a = 8;
+      a = 7.5;
       radius = texts.length * a;
     }
     console.log(a);
