@@ -21,10 +21,10 @@ export default function Home() {
       "react": {
         "nextjs": "fluent",
         "qwikjs": "fluent",
-        "svelte": "in-progress"
+        "svelte": "decent"
       },
       "node": {
-        "expressjs": "fluent"
+        "express": "fluent"
       }
     }
   },
@@ -35,7 +35,7 @@ export default function Home() {
   },
   "operating-systems": {
     "linux": {
-      "arch-linux": "fluent",
+      "arch": "fluent",
       "gentoo": "decent",
       "opensuse": "fluent",
       "ubuntu": "fluent",
@@ -45,7 +45,7 @@ export default function Home() {
   "general-programming": {
     "c": "fluent",
     "python": "fluent",
-    "cpp": "fluent",
+    "cpp": "decent",
     "java": "decent",
     "ruby": "decent",
     "lua": "decent"
