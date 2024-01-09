@@ -129,30 +129,66 @@ const createItem = (
 
 const defaultState: tagSphereProps = {
   texts: [
-    <img width={50} src={'https://cdn.svgporn.com/logos/html-5.svg'} alt={'HTML5'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/python.svg'} alt={'Python'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/react.svg'} alt={'React'} />,
+    <img width={50} key={1} src={'https://cdn.svgporn.com/logos/html-5.svg'} alt={'HTML5'} />,
+    <img width={50} key={2} src={'https://cdn.svgporn.com/logos/python.svg'} alt={'Python'} />,
+    <img width={50} key={3} src={'https://cdn.svgporn.com/logos/react.svg'} alt={'React'} />,
     <img
       width={50}
+      key={4}
       src={'https://cdn.svgporn.com/logos/tailwindcss-icon.svg'}
       alt={'TailwindCSS'}
     />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/figma.svg'} alt={'Figma'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/vim.svg'} alt={'VIM'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/linux-tux.svg'} alt={'Linux'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/javascript.svg'} alt={'Javascript'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/adobe-xd.svg'} alt={'Adobe XD'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/visual-studio-code.svg'} alt={'VSCode'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/qwik-icon.svg'} alt={'QwikJS'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/svelte-icon.svg'} alt={'Svelte'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/firebase.svg'} alt={'Firebase'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/nodejs-icon.svg'} alt={'NodeJS'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/supabase-icon.svg'} alt={'Supabase'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/java.svg'} alt={'Java'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/nextjs-icon.svg'} alt={'NextJS'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/mongodb-icon.svg'} alt={'MongoDB'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/git-icon.svg'} alt={'GIT'} />,
-    <img width={50} src={'https://cdn.svgporn.com/logos/lua.svg'} alt={'Lua'} />,
+    <img key={5} width={50} src={'https://cdn.svgporn.com/logos/figma.svg'} alt={'Figma'} />,
+    <img key={6} width={50} src={'https://cdn.svgporn.com/logos/vim.svg'} alt={'VIM'} />,
+    <img width={50} key={7} src={'https://cdn.svgporn.com/logos/linux-tux.svg'} alt={'Linux'} />,
+    <img
+      width={50}
+      key={8}
+      src={'https://cdn.svgporn.com/logos/javascript.svg'}
+      alt={'Javascript'}
+    />,
+    <img width={50} key={9} src={'https://cdn.svgporn.com/logos/adobe-xd.svg'} alt={'Adobe XD'} />,
+    <img
+      width={50}
+      key={10}
+      src={'https://cdn.svgporn.com/logos/visual-studio-code.svg'}
+      alt={'VSCode'}
+    />,
+    <img width={50} key={11} src={'https://cdn.svgporn.com/logos/qwik-icon.svg'} alt={'QwikJS'} />,
+    <img
+      width={50}
+      key={12}
+      src={'https://cdn.svgporn.com/logos/svelte-icon.svg'}
+      alt={'Svelte'}
+    />,
+    <img width={50} key={13} src={'https://cdn.svgporn.com/logos/firebase.svg'} alt={'Firebase'} />,
+    <img
+      width={50}
+      key={14}
+      src={'https://cdn.svgporn.com/logos/nodejs-icon.svg'}
+      alt={'NodeJS'}
+    />,
+    <img
+      width={50}
+      key={15}
+      src={'https://cdn.svgporn.com/logos/supabase-icon.svg'}
+      alt={'Supabase'}
+    />,
+    <img width={50} key={16} src={'https://cdn.svgporn.com/logos/java.svg'} alt={'Java'} />,
+    <img
+      width={50}
+      key={17}
+      src={'https://cdn.svgporn.com/logos/nextjs-icon.svg'}
+      alt={'NextJS'}
+    />,
+    <img
+      width={50}
+      key={18}
+      src={'https://cdn.svgporn.com/logos/mongodb-icon.svg'}
+      alt={'MongoDB'}
+    />,
+    <img width={50} key={19} src={'https://cdn.svgporn.com/logos/git-icon.svg'} alt={'GIT'} />,
+    <img width={50} key={20} src={'https://cdn.svgporn.com/logos/lua.svg'} alt={'Lua'} />,
   ],
   maxSpeed: 1,
   initialSpeed: 32,
