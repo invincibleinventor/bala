@@ -117,7 +117,7 @@ export default function Sidebar() {
           <div className={`flex flex-col space-y-1 ${expanded ? '' : 'hidden'}`}>
             <Link
               href="/"
-              scroll={true}
+              scroll={false}
               className={`flex w-48 shrink-0 flex-row content-center items-center space-x-1 bg-neutral-900  py-1  text-sm text-neutral-300 ${
                 !path.includes('/main') && !paths.includes(path) ? 'neut-800  text-neutral-200' : ''
               }`}
@@ -133,7 +133,7 @@ export default function Sidebar() {
             </Link>
             <Link
               href="/main/languages"
-              scroll={true}
+              scroll={false}
               className={`flex w-48 shrink-0 flex-row content-center items-center space-x-1 bg-neutral-900  py-1  text-sm text-neutral-300 ${
                 path == '/main/languages' ? 'neut-800  text-neutral-200' : ''
               }`}
@@ -149,7 +149,7 @@ export default function Sidebar() {
             </Link>
             <Link
               href="/main/education"
-              scroll={true}
+              scroll={false}
               className={`flex w-48 shrink-0 flex-row content-center items-center space-x-1 bg-neutral-900  py-1  text-sm text-neutral-300 ${
                 path == '/main/education' ? 'neut-800  text-neutral-200' : ''
               }`}
@@ -165,7 +165,7 @@ export default function Sidebar() {
             </Link>
             <Link
               href="/main/reviews"
-              scroll={true}
+              scroll={false}
               className={`flex w-48 shrink-0 flex-row content-center items-center space-x-1 bg-neutral-900  py-1  text-sm text-neutral-300 ${
                 path == '/main/reviews' ? 'neut-800  text-neutral-200' : ''
               }`}
