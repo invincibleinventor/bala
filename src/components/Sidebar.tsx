@@ -35,7 +35,7 @@ export default function Sidebar() {
           }`}
         >
           <Link
-            scroll={true}
+            scroll={false}
             href={a}
             onClick={() => {
               if (path == '/' || path.includes('/main')) setFile(!file);
@@ -53,7 +53,7 @@ export default function Sidebar() {
             path == '/search' ? 'border-l-2 border-l-blue-400' : 'border-l-2 border-l-neutral-800'
           }`}
         >
-          <Link href="/search" scroll={true} className="flex content-center items-center p-4">
+          <Link href="/search" scroll={false} className="flex content-center items-center p-4">
             <iconify-icon
               class="text-[26px] text-neutral-500 hover:text-neutral-400"
               icon="codicon:search"
@@ -65,7 +65,7 @@ export default function Sidebar() {
             path == '/git' ? 'border-l-2 border-l-blue-400' : 'border-l-2 border-l-neutral-800'
           }`}
         >
-          <Link href="/git" scroll={true} className="flex content-center items-center p-4">
+          <Link href="/git" scroll={false} className="flex content-center items-center p-4">
             <iconify-icon
               class="text-[26px] text-neutral-500 hover:text-neutral-400"
               icon="codicon:source-control"
@@ -77,7 +77,7 @@ export default function Sidebar() {
             path == '/projects' ? 'border-l-2 border-l-blue-400' : 'border-l-2 border-l-neutral-800'
           }`}
         >
-          <Link scroll={true} href="/projects" className="flex content-center items-center p-4">
+          <Link scroll={false} href="/projects" className="flex content-center items-center p-4">
             <iconify-icon
               class="text-[26px] text-neutral-500 hover:text-neutral-400"
               icon="codicon:extensions"
@@ -89,7 +89,7 @@ export default function Sidebar() {
             path == '/contact' ? 'border-l-2 border-l-blue-400' : 'border-l-2 border-l-neutral-800'
           }`}
         >
-          <Link scroll={true} href="/contact" className="flex content-center items-center p-4">
+          <Link scroll={false} href="/contact" className="flex content-center items-center p-4">
             <iconify-icon
               class="text-[26px] text-neutral-500 hover:text-neutral-400"
               icon="codicon:account"
