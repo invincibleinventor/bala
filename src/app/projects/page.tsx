@@ -94,7 +94,6 @@ customStyle={{
             </div>
           </Link>
         </div>
-        <div className="relative flex h-[500px] flex-col bg-black bg-opacity-20">
         
         <div className="relative flex h-[500px] flex-col bg-black bg-opacity-20">
           <img src="/images/2.png" className="h-44 w-full"></img>
