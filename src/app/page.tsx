@@ -8,9 +8,9 @@ const Tags = dynamic(() => import('@/components/skills'), { ssr: false });
 export default function Home() {
   return (
     <div className="no-scrollbar flex h-auto overflow-x-hidden  w-[calc(100vw-58px)] flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
-      <div className="my-auto mb-4 flex w-full flex-col-reverse md:mb-0 md:flex-row-reverse">
-        <div className="my-auto flex flex-col content-center px-8 py-6 md:w-3/6 md:px-14 md:py-10 ">
-          <h1 className="font-neutral text-3xl text-neutral-300">hola! I&apos;m</h1>
+      <div className="flex flex-col-reverse my-auto mb-4 w-full md:mb-0 md:flex-row-reverse">
+        <div className="flex flex-col content-center px-8 py-6 my-auto md:w-3/6 md:px-14 md:py-10">
+          <h1 className="text-3xl font-neutral text-neutral-300">hola! I&apos;m</h1>
           <h1 className="text-6xl font-black -ml-[1px] text-white md:text-8xl">bala.tbr</h1>
           <h1
             className="my-4 text-xs font-normal text-neutral-400 md:text-sm lg:my-6 lg:text-sm"
@@ -21,24 +21,24 @@ export default function Home() {
           </h1>
           <Link
             href={'/contact'}
-            className="my-2 w-max hover:bg-sky-600 transition-all ease-linear duration-100 border border-neutral-700 bg-black bg-opacity-10 px-5 py-3 text-sm font-medium text-white"
+            className="px-5 py-3 my-2 w-max text-sm font-medium text-white bg-black bg-opacity-10 border transition-all duration-100 ease-linear hover:bg-sky-600 border-neutral-700"
           >
             get in touch
           </Link>
-          <h1 className="font-neutral mt-10  text-lg  font-bold text-neutral-300 md:mt-8 md:text-xl">
+          <h1 className="mt-10 text-lg font-bold font-neutral text-neutral-300 md:mt-8 md:text-xl">
             about <span className="underline">Me</span>
           </h1>
           <h1
             style={{ lineHeight: 2 }}
-            className="my-2 mt-4 text-xs font-normal leading-relaxed text-neutral-400  lg:text-sm"
+            className="my-2 mt-4 text-xs font-normal leading-relaxed text-neutral-400 lg:text-sm"
           >
             <ul className="px-[2px] space-y-2">
               <li>
-                <div className="flex flex-row items-center content-center space-x-2">
+                <div className="flex flex-row content-center items-center space-x-2">
                   <h1 style={{ lineHeight: 2.4 }}>
                     I'm a passionate geek from India that loves to tinker with{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         everything not backend
                       </div>
                       <div className="bg-fuchsia-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -48,7 +48,7 @@ export default function Home() {
                     {'. '}
                     i'm an ardent lover of{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         an os dumbo
                       </div>
                       <div className="bg-cyan-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -57,7 +57,7 @@ export default function Home() {
                     </div>{' '}
                     and{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         free & open source
                       </div>
                       <div className="bg-neutral-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -68,7 +68,7 @@ export default function Home() {
                     {'. '}
                     i'm a self taught web dev, open to help and{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         learn english
                       </div>
                       <div className="bg-violet-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -77,7 +77,7 @@ export default function Home() {
                     </div>
                     with people. i'm best at using{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         react js framework
                       </div>
                       <div className="bg-green-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -86,7 +86,7 @@ export default function Home() {
                     </div>{' '}
                     and i am a fan of{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         css framework
                       </div>
                       <div className="bg-teal-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -96,7 +96,7 @@ export default function Home() {
                     {'. '}
                     i'm familar with VC systems like{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         makes life easy
                       </div>
                       <div className="bg-red-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -105,7 +105,7 @@ export default function Home() {
                     </div>
                     and essential tools like{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         complicated shit{' '}
                       </div>
                       <div className="bg-orange-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -114,7 +114,7 @@ export default function Home() {
                     </div>
                     {'. '}i love using{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         vscode meh
                       </div>
                       <div className="bg-yellow-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -123,7 +123,7 @@ export default function Home() {
                     </div>{' '}
                     and{' '}
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         The IDE for chads
                       </div>
                       <div className="bg-pink-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -133,7 +133,7 @@ export default function Home() {
                     {'. '}
                     PS: i use
                     <div className="inline-flex group relative h-[16.57px] flex flex-col items-center content-center">
-                      <div className="hidden bg-blue-400 group-hover:block absolute py-2 px-4 text-neutral-400 text-xs bottom-6 neut-800 border border-neutral-700 rounded-md shadow-lg left-0 right-0 mx-auto w-max">
+                      <div className="hidden absolute right-0 left-0 bottom-6 px-4 py-2 mx-auto w-max text-xs bg-blue-400 rounded-md border shadow-lg group-hover:block text-neutral-400 neut-800 border-neutral-700">
                         linux distro
                       </div>
                       <div className="bg-sky-700 cursor-pointer inline-flex mx-1 rounded-md h-[16.57px] flex items-center content-center px-2  text-white font-medium">
@@ -144,7 +144,7 @@ export default function Home() {
                   </h1>
                 </div>
                 <div className="border border-neutral-700 bg-black bg-opacity-10 px-6 py-2 mt-[27px]">
-                  <div className="mx-auto flex flex-row justify-between items-center content-center">
+                  <div className="flex flex-row justify-between content-center items-center mx-auto">
                     <h1>
                       learn more about this site{' '}
                       <span className="hidden md:inline-block">and read how i made this</span>
@@ -153,7 +153,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://evoltwebs.vercel.app/post/100"
-                      className="hover:text-blue-400 hover:underline duration-100 ease-linear animate-all cursor-pointer font-medium text-xs text-white"
+                      className="text-xs font-medium text-white duration-100 ease-linear cursor-pointer hover:text-blue-400 hover:underline animate-all"
                     >
                       visit blog &gt;
                     </a>
@@ -163,7 +163,7 @@ export default function Home() {
             </ul>
           </h1>
         </div>
-        <div className="flex items-center content-center flex-row px-6 pb-5 pt-10 md:mt-10 md:w-3/6 md:p-0 md:pb-10 md:pl-10">
+        <div className="flex flex-row content-center items-center px-6 pt-10 pb-5 md:mt-10 md:w-3/6 md:p-0 md:pb-10 md:pl-10">
           <div className="hidden">
             <svg
               className="lg:w-[500px] lg:h-[500px] xl:h-[500px] xl:w-[800px] w-96 h-96 mx-auto my-auto"
@@ -1471,7 +1471,7 @@ export default function Home() {
               </g>
             </svg>
           </div>
-          <div className="my-auto py-10 lg:py-0 mx-auto">
+          <div className="py-10 mx-auto my-auto lg:py-0">
             <Tags />
           </div>{' '}
         </div>
