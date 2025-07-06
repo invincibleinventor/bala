@@ -10,36 +10,41 @@ export default function Titlebar() {
       <iconify-icon class="mr-4 text-xl" icon="devicon:vscode"></iconify-icon>
 
       <div className="hidden flex-row space-x-1 lg:flex">
-        <span className="cursor-pointer rounded-md px-2 py-1 text-[13px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
+        <div className="cursor-pointer rounded-md px-2 py-1 text-[14px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
           File
-        </span>
-        <span className="cursor-pointer rounded-md px-2 py-1 text-[13px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
+        </div>
+        <div className="cursor-pointer rounded-md px-2 py-1 text-[14px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
           Edit
-        </span>
-        <span className="cursor-pointer rounded-md px-2 py-1 text-[13px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
+        </div>
+        <div className="cursor-pointer rounded-md px-2 py-1 text-[14px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
           Selection
-        </span>
-        <span className="cursor-pointer rounded-md px-2 py-1 text-[13px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
+        </div>
+        <div className="cursor-pointer rounded-md px-2 py-1 text-[14px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
           View
-        </span>
-        <span className="cursor-pointer rounded-md px-2 py-1 text-[13px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
+        </div>
+        <div className="cursor-pointer rounded-md px-2 py-1 text-[14px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
           Go
-        </span>
-        <span className="cursor-pointer rounded-md px-2 py-1 text-[13px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
+        </div>
+        <div className="cursor-pointer rounded-md px-2 py-1 text-[14px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
           Run
-        </span>
-        <span className="cursor-pointer rounded-md px-2 py-1 text-[13px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
+        </div>
+        <div className="cursor-pointer rounded-md px-2 py-1 text-[14px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
           Terminal
-        </span>
-        <span className="cursor-pointer rounded-md px-2 py-1 text-[13px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
+        </div>
+        <div className="cursor-pointer rounded-md px-2 py-1 text-[14px] text-neutral-300 hover:bg-neutral-700 hover:text-neutral-200">
           Help
-        </span>
+        </div>
       </div>
-      <div className="lg:absolute w-screen">
+      <div className="absolute w-screen">
         <span className=" mx-auto inset-y-[25%] z-10 block w-max text-[15px]   text-neutral-300 ">
           Bala.tbr - <span className="hidden lg:inline-block">VSCode</span>
           <span className="inline-block lg:hidden">VSCode</span>
         </span>
+      </div>
+      <div className='ml-auto flex flex-row items-center content-center space-x-[12px]'>
+        <div className='w-[14px] h-[14px] bg-red-600 rounded-full'></div>
+        <div className='w-[14px] h-[14px] bg-yellow-600 rounded-full'></div>
+        <div className='w-[14px] h-[14px] bg-green-600 rounded-full'></div>
       </div>
     </header>
   );

@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Tags = dynamic(() => import('@/components/skills'), { ssr: false });
 export default function Home() {
   return (
-    <div className="no-scrollbar flex h-auto overflow-x-hidden  w-[calc(100vw-58px)] flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
+    <div className="no-scrollbar flex h-auto overflow-x-hidden  lg:w-auto w-[calc(100vw-58px)] flex-col content-center items-center overflow-y-scroll md:py-0 lg:overflow-hidden">
       <div className="flex flex-col-reverse my-auto mb-4 w-full md:mb-0 md:flex-row-reverse">
         <div className="flex flex-col content-center px-8 py-6 my-auto md:w-3/6 md:px-14 md:py-10">
           <h1 className="text-3xl font-neutral text-neutral-300">hola! I&apos;m</h1>
